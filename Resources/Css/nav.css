@@ -1,5 +1,9 @@
 .navbar{
-    background: transparent !important;
+    background: transparent;
+}
+
+.navbar:hover{
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .navbar-nav{
@@ -30,5 +34,70 @@
 @media only screen and (max-width: 575px) {
     .texto-nav{
         font-size: 1rem;
+    }
+}
+
+.texto-titulo{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    letter-spacing: 0.4rem;
+}
+
+.texto-subtitulo{
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.texto-frase-titulo{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.75rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 991px) {
+    .texto-titulo{
+        font-size: 2.75rem;
+        letter-spacing: 0.3rem;
+    }
+    .texto-subtitulo{
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+    }
+    .texto-frase-titulo{
+        font-size: 1.3rem;
+        letter-spacing: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .texto-titulo{
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    .texto-subtitulo{
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+    }
+    .texto-frase-titulo{
+        font-size: 1.1rem;
+        letter-spacing: 0.1rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .texto-titulo{
+        font-size: 1.3rem;
+        letter-spacing: 0.2rem;
+    }
+    .texto-subtitulo{
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+    }
+    .texto-frase-titulo{
+        font-size: 0.7rem;
+        letter-spacing: 0.1rem;
     }
 }

@@ -7,6 +7,7 @@ html{
 }
 
 .texto-titular-section{
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -49,6 +50,9 @@ html{
     }
     .texto-section{
         font-size: 0.85rem;
+    }
+    .texto-titular-section{
+        font-size: 1rem;
     }
 }
 
