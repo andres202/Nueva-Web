@@ -1,9 +1,11 @@
 .navbar{
     background: transparent;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
 }
 
 .navbar:hover{
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .navbar-nav{
@@ -12,29 +14,19 @@
 
 .texto-nav{
     color: rgb(190, 190, 190) !important;
-    font-size: 1.3rem;
-}
-
-.contenedor-nav{
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
     font-weight: bold;
 }
 
-.contenedor-imagen{
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
-@media only screen and (max-width: 575px) {
-    .texto-nav{
-        font-size: 1rem;
-    }
+.contenedor-titulo-header{
+    position: absolute;
+    color: white;
+    top: 35%;
 }
 
 .texto-titulo{
@@ -52,8 +44,35 @@
 
 .texto-frase-titulo{
     font-family: 'Kaushan Script', cursive;
-    font-size: 1.75rem;
+    font-size: 2rem;
     letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+/*.texto-frase-titulo{
+    font-family: 'Notable', sans-serif;
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    line-height: 1;
+}*/
+
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.form-control{
+    background-color: transparent;
+}
+
+.texto-form{
+    color: rgb(190, 190, 190) !important;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
     font-weight: bold;
 }
 
@@ -67,7 +86,7 @@
         letter-spacing: 0.2rem;
     }
     .texto-frase-titulo{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         letter-spacing: 0.2rem;
     }
 }
@@ -82,22 +101,25 @@
         letter-spacing: 0.1rem;
     }
     .texto-frase-titulo{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         letter-spacing: 0.1rem;
     }
 }
 
 @media only screen and (max-width: 575px) {
+    .texto-nav{
+        font-size: 1.1rem;
+    }
     .texto-titulo{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         letter-spacing: 0.2rem;
     }
     .texto-subtitulo{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         letter-spacing: 0.1rem;
     }
     .texto-frase-titulo{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         letter-spacing: 0.1rem;
     }
 }

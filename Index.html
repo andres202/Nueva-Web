@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="prueba.css">
     <link rel="stylesheet" href="Resources/Css/bootstrap.min.css">
     <link rel="stylesheet" href="Resources/Css/section.css">
     <link rel="stylesheet" href="Resources/Css/nav.css">
@@ -16,33 +17,50 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row justify-content-center" style="position: relative;">
-            <div class="col-12 contenedor-nav">
+        
+            <div class="header">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand texto-nav" href="#">Portada</a>
-                    <button class="navbar-toggler" style="background-color: rgba(255, 255, 255, 0.25);" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                    <a class="navbar-brand texto-nav" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                      <div class="navbar-nav text-center">
-                        <a class="nav-item nav-link texto-nav" href="#">Destinos</a>
-                        <a class="nav-item nav-link texto-nav" href="#">Viajes</a>
-                        <a class="nav-item nav-link texto-nav" href="#">Historias</a>
-                        <a class="nav-item nav-link texto-nav" href="#">Relatos</a>
-                      </div>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto text-center">
+                            <li class="nav-item active">
+                                <a class="nav-link texto-nav" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link texto-nav" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle texto-nav" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item texto-nav" href="#">Action</a>
+                                    <a class="dropdown-item texto-nav" href="#">Another action</a>
+                                    <a class="dropdown-item texto-nav" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled texto-nav" href="#">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2 texto-form" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-light my-2 my-sm-0 texto-form" type="submit">Buscar</button>
+                        </form>
                     </div>
                 </nav>
             </div>
-            <div class="col-12 contenedor-imagen">
-                <img class="w-100" src="Resources/Images/Bombinhas-1024x450.jpg">                
-            </div>
-            <div class="col-11" style="position: absolute;color: white;top: 35%;">
+            <div class="col-10 contenedor-titulo-header">
                 <h1 class="mb-0 texto-titulo">VIAJEROS</h1>
                 <p class="mb-0 texto-subtitulo">LANDSCAPES</p>
-                <!--<p style="font-family: 'Notable', sans-serif;font-size: 30px;letter-spacing: 5px;font-weight: bold;">TE ATREVES</p>-->
-                <p class="texto-frase-titulo">TE ATREVES</p>
+                <p  class="texto-frase-titulo">ATRÉVETE!</p>
+                <!--<p class="texto-frase-titulo">ATRÉVETE!</p>-->
             </div>
-        </div>        
+        
         <br>
         <div class="row" style="font-weight: bold;">
             <div class="col-12">
