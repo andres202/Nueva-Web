@@ -5,68 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Resources/Css/bootstrap.min.css">
-    <link rel="stylesheet" href="Resources/Css/section1.css">
+    <link rel="stylesheet" href="Resources/Css/section.css">
+    <link rel="stylesheet" href="Resources/Css/nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Lato&family=Open+Sans+Condensed:wght@300&family=Poller+One&family=Signika&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container-fluid">
-        <br>
-        <div class="row justify-content-center" style="background-color: rgb(20, 20, 20);">
-            <div class="col-11 contenedor-section">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 mt-3 contenedor-puente-section">
-                        <div class="row align-items-center justify-content-around">
-                            <div class="col-sm-11 col-md-6 col-lg-6 contenedor-imagen-puente">
-                                <img class="w-100 p-3" src="Resources/Images/Golden_Gate_Bridge.jpg" alt="Golden Gate Bridge">
-                            </div>
-                            <div class="col-sm-11 col-md-6 col-lg-6">
-                                <div class="row justify-content-center">
-                                    <div class="col-11">
-                                        <h4>Golden Gate Bridge</h4>
-                                        <p class="text-white" style="font-size:16px">Es un puente colgante situado en Estados Unidos, California, 
-                                        une la península de San Francisco por el norte con el sur del condado de Marin, cerca de Sausalito. Golden 
-                                        Gate es también el nombre del estrecho en el cual el puente está construido</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
+        <div class="row">
+            <div class="col-12 contenedor-nav">
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <a class="navbar-brand texto-nav" href="#">Portada</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link texto-nav" href="#">Destinos</a>
+                        <a class="nav-item nav-link texto-nav" href="#">Viajes</a>
+                        <a class="nav-item nav-link texto-nav" href="#">Historias</a>
+                        <a class="nav-item nav-link texto-nav" href="#">Relatos</a>
+                      </div>
                     </div>
-                    <div class="col-12 my-3 contenedor-lugares-section" style="box-shadow: 0px 0px 8px 1px rgba(255,255,255,0.7);">
-                        <div class="row justify-content-around">
-                            <div class="col-11 col-sm-11 col-md-3 col-lg-3 my-3" style="border: 1px solid rgb(75, 75, 75);">
-                                <div class="row">
-                                    <div class="col-12 px-0">
-                                        <img class="w-100" src="Resources/Images/Pirámides-de-Egipto.jpg" alt="Pirámides de Egipto">
-                                    </div>
-                                    <div class="col-12">
-                                        <h5 class="mt-2">Pirámides de Egipto</h5>
-                                        <p>Las Pirámides de Egipto fueron los monumentos funerarios de los grandes faraones. Un legado que aún sigue 
-                                        despertando admiración</p>
+                </nav>
+            </div>
+            <div class="col-12 contenedor-imagen">
+                <img class="w-100" src="Resources/Images/Bombinhas-1024x450.jpg">
+            </div>
+        </div>        
+        <br>
+        <div class="row" style="font-weight: bold;">
+            <div class="col-12">
+                <div class="row justify-content-center mx-0 contenedor-fondo-section">
+                    <div class="col-10 col-sm-10 col-md-11 col-lg-11 contenedor-section">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 contenedor-encabezado-section">
+                                <div class="row align-items-center justify-content-around">
+                                    <div class="col-11 col-sm-11 col-md-11 col-lg-11 my-3 contenedor-puente-section">
+                                        <div class="row align-items-center">
+                                            <div class="col-12 col-sm-12 col-md-6 px-0">
+                                                <img class="w-100 pl-0 imagen-puente-section" src="Resources/Images/Golden_Gate_Bridge.jpg" alt="Puente Golden Gate">
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-6">
+                                                <h5 class="mt-2 texto-titular-section">Golden Gate Bridge</h5>
+                                                <p class="texto-section">Es un puente colgante situado en Estados Unidos, California, une la península de San Francisco por el norte 
+                                                con el sur del condado de Marin, cerca de Sausalito. Golden Gate es también el nombre del estrecho en el cual 
+                                                el puente está construido</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-11 col-sm-5 col-md-3 col-lg-3 my-3" style="border: 1px solid rgb(75, 75, 75);">
-                                <div class="row">
-                                    <div class="col-12 px-0">
-                                        <img class="w-100" src="Resources/Images/1530-1024x768.jpg" alt="Pirámides de Egipto">
+                            <div class="col-12 contenedor-lugares-section">
+                                <div class="row justify-content-around">
+                                    <div class="col-11 col-sm-11 col-md-3 col-lg-3 my-3 bordes-lugares-section">
+                                        <div class="row">
+                                            <div class="col-12 px-0">
+                                                <img class="w-100" src="Resources/Images/Pirámides-de-Egipto.jpg" alt="Pirámides de Egipto">
+                                            </div>
+                                            <div class="col-12">
+                                                <h5 class="mt-2 texto-titular-section">Pirámides de Egipto</h5>
+                                                <p class="texto-section">Las Pirámides de Egipto fueron los monumentos funerarios de los grandes faraones. Un legado que aún sigue 
+                                                despertando admiración</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-12">
-                                        <h5 class="mt-2">Pirámides de Egipto</h5>
-                                        <p>Las Pirámides de Egipto fueron los monumentos funerarios de los grandes faraones. Un legado que aún sigue 
-                                        despertando admiración</p>
+                                    <div class="col-11 col-sm-5 col-md-3 col-lg-3 my-3 bordes-lugares-section">
+                                        <div class="row">
+                                            <div class="col-12 px-0">
+                                                <img class="w-100" src="Resources/Images/1530-1024x768.jpg" alt="Pirámides de Egipto">
+                                            </div>
+                                            <div class="col-12">
+                                                <h5 class="mt-2 texto-titular-section">Pirámides de Egipto</h5>
+                                                <p class="texto-section">Las Pirámides de Egipto fueron los monumentos funerarios de los grandes faraones. Un legado que aún sigue 
+                                                despertando admiración</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-11 col-sm-5 col-md-3 col-lg-3 my-3" style="border: 1px solid rgb(75, 75, 75);">
-                                <div class="row">
-                                    <div class="col-12 px-0">
-                                        <img class="w-100" src="Resources/Images/Nueva-York.jpg" alt="Nueva York">
-                                    </div>
-                                    <div class="col-12">
-                                        <h5 class="mt-2">Nueva York</h5>
-                                        <p>Las Pirámides de Egipto fueron los monumentos funerarios de los grandes faraones. Un legado que aún sigue 
-                                        despertando admiración</p>
+                                    <div class="col-11 col-sm-5 col-md-3 col-lg-3 my-3 bordes-lugares-section">
+                                        <div class="row">
+                                            <div class="col-12 px-0">
+                                                <img class="w-100" src="Resources/Images/Nueva-York.jpg" alt="Nueva York">
+                                            </div>
+                                            <div class="col-12">
+                                                <h5 class="mt-2 texto-titular-section">Nueva York</h5>
+                                                <p class="texto-section">Las Pirámides de Egipto fueron los monumentos funerarios de los grandes faraones. Un legado que aún sigue 
+                                                despertando admiración</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -74,9 +100,9 @@
                     </div>
                 </div>
             </div>
-            
         </div>
         <br>
+        
     </div>
     <script src="jquery-3.4.1.min.js"></script>
     <script src="bootstrap.min.js"></script>
