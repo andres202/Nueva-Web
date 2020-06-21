@@ -8,7 +8,7 @@
     background-position: center center;
     width: 100%;
     min-height: 100vh;
-    animation: 20s slide infinite;
+    animation: slide 20s infinite;
 }
 
 .content{
@@ -25,10 +25,13 @@
         background-image: url("../Images/Camping_Milky_Way.jpg");
     }
     20.01% {
-        background-image: url("../Images/Bombinhas.jpeg");
+        background-image: url("../Images/pexels-photo-462122.jpeg");
+    }
+    20.01% {
+        background-image: url("../Images/pexels-photo-462122.jpeg");
     }
     40% {
-        background-image: url("../Images/Bombinhas.jpeg");
+        background-image: url("../Images/pexels-photo-462122.jpeg");
     }
     40.01% {
         background-image: url("../Images/Antelope-Canyon.jpg");
