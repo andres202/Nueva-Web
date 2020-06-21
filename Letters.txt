@@ -1,0 +1,11 @@
+font-family: 'Anton', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Encode Sans Condensed', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Notable', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Poller One', cursive;
+font-family: 'Signika', sans-serif;
