@@ -7,23 +7,23 @@
 .texto-titulo{
     font-family: 'Anton', sans-serif;
     font-weight: bold;
-    font-size: 2.52rem;
+    font-size: 3rem;
     letter-spacing: 0.3rem;
     color: transparent !important;
     -webkit-text-stroke: .1px;
-    -webkit-text-stroke-color: rgba(255, 255, 255, 0.6);
+    -webkit-text-stroke-color: #fff;
     
 }
 
 .texto-subtitulo{
     font-family: 'Anton', sans-serif;
-    font-size: 1.95rem;
+    font-size: 2.3rem;
     letter-spacing: 0.2rem;
 }
 
 .texto-frase-titulo{
     font-family: 'Lato', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.12rem;
     letter-spacing: 0.2rem;
     font-weight: bold;
     color: rgb(209, 209, 12) !important;
@@ -40,45 +40,45 @@
 
 @media only screen and (max-width: 575px) {
     .texto-titulo{
-        font-size: 1.44rem;
+        font-size: 1.5rem;
         letter-spacing: 0.15rem;
     }
     .texto-subtitulo{
-        font-size: 1.09rem;
+        font-size: 1.14rem;
         letter-spacing: 0.1rem;
     }
     .texto-frase-titulo{
-        font-size: 1rem;
+        font-size: 1.05rem;
         letter-spacing: 0.1rem;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .texto-titulo{
-        font-size: 1.8rem;
+        font-size: 2.1rem;
         letter-spacing: 0.15rem;
     }
     .texto-subtitulo{
-        font-size: 1.37rem;
+        font-size: 1.59rem;
         letter-spacing: 0.1rem;
     }
     .texto-frase-titulo{
-        font-size: 1.25rem;
+        font-size: 1.47rem;
         letter-spacing: 0.1rem;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .texto-titulo{
-        font-size: 2.04rem;
+        font-size: 2.5rem;
         letter-spacing: 0.25rem;
     }
     .texto-subtitulo{
-        font-size: 1.6rem;
+        font-size: 1.94rem;
         letter-spacing: 0.15rem;
     }
     .texto-frase-titulo{
-        font-size: 1.48rem;
+        font-size: 1.78rem;
         letter-spacing: 0.15rem;
     }
 }
