@@ -1,6 +1,6 @@
 .navbar{
     background: transparent;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
@@ -14,9 +14,7 @@
 
 .texto-nav{
     color: rgb(190, 190, 190) !important;
-    font-size: 1.25rem;
-    letter-spacing: 0.1rem;
-    font-weight: bold;
+    font-size: 1rem;
 }
 
 .navbar-toggler{
@@ -32,18 +30,29 @@
 }
 
 .form-control{
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .texto-form{
     color: rgb(190, 190, 190) !important;
     font-size: 1rem;
-    letter-spacing: 0.1rem;
     font-weight: bold;
+    border-radius: 0%;
 }
 
 @media only screen and (max-width: 575px) {
     .texto-nav{
-        font-size: 1.2rem;
+        font-size: .9rem;
+    }
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-link:hover{
+        border-bottom: 1.5px solid #f8a12d !important;
+        height: 38px;
     }
 }

@@ -5,10 +5,14 @@
 }
 
 .texto-titulo{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.52rem;
     letter-spacing: 0.3rem;
+    color: transparent !important;
+    -webkit-text-stroke: .1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.6);
+    
 }
 
 .texto-subtitulo{
@@ -22,6 +26,8 @@
     font-size: 1.8rem;
     letter-spacing: 0.2rem;
     font-weight: bold;
+    color: rgb(209, 209, 12) !important;
+    line-height: 1;
 }
 
 /*.texto-frase-titulo{
@@ -34,26 +40,26 @@
 
 @media only screen and (max-width: 575px) {
     .texto-titulo{
-        font-size: 1.5rem;
+        font-size: 1.44rem;
         letter-spacing: 0.15rem;
     }
     .texto-subtitulo{
-        font-size: 0.96rem;
+        font-size: 1.09rem;
         letter-spacing: 0.1rem;
     }
     .texto-frase-titulo{
-        font-size: 0.9rem;
+        font-size: 1rem;
         letter-spacing: 0.1rem;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .texto-titulo{
-        font-size: 2.1rem;
+        font-size: 1.8rem;
         letter-spacing: 0.15rem;
     }
     .texto-subtitulo{
-        font-size: 1.35rem;
+        font-size: 1.37rem;
         letter-spacing: 0.1rem;
     }
     .texto-frase-titulo{
@@ -64,7 +70,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .texto-titulo{
-        font-size: 2.4rem;
+        font-size: 2.04rem;
         letter-spacing: 0.25rem;
     }
     .texto-subtitulo{
@@ -72,7 +78,7 @@
         letter-spacing: 0.15rem;
     }
     .texto-frase-titulo{
-        font-size: 1.5rem;
+        font-size: 1.48rem;
         letter-spacing: 0.15rem;
     }
 }
